@@ -1,0 +1,16 @@
+Python create environment:
+=> python -m venv venv
+Python venv activation
+# In cmd.exe
+=> venv\Scripts\activate.bat
+# In PowerShell
+=> venv\Scripts\Activate.ps1
+
+Linux and MacOS venv activation
+On Linux and MacOS, we activate our virtual environment with the source command. If you created your venv in the myvenv directory, the command would be:
+
+=> source venv/bin/activate
+
+install fast api and uvicorn
+=> pip install fastapi uvicorn
+
